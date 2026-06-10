@@ -1,4 +1,4 @@
-# 🛒 Akıllı Alışveriş Listesi (Smart Shopping List)
+#  Akıllı Alışveriş Listesi (Smart Shopping List)
 
 Bu proje, **EFC304 Mobil Uygulama Tasarımı ve Geliştirme** dersi final projesi gereksinimlerine ve katı yazılım mimarisi kurallarına uygun olarak geliştirilmiş, üretim kalitesinde (production-ready) bir Flutter mobil uygulamasıdır.
 
@@ -6,7 +6,7 @@ Uygulama, kullanıcıların alışverişlerini planlamasını kolaylaştırmayı
 
 ---
 
-## 🏛️ Katmanlı Mimari ve Klasör Yapısı (Layered Architecture)
+##  Katmanlı Mimari ve Klasör Yapısı (Layered Architecture)
 
 Proje, bağımlılıkları minimuma indirmek ve sürdürülebilirliği artırmak adına kesin sınırlarla ayrılmış **3 Katmanlı Mimari (Presentation, Domain, Data)** yapısı üzerine kurulmuştur.
 
@@ -34,19 +34,19 @@ lib/
 
 ---
 
-## 🌟 Öne Çıkan Özellikler
+##  Öne Çıkan Özellikler
 
-*   **🔒 Modern Giriş & Kayıt Sistemi:** Kullanıcılar hesap oluşturabilir ve yerel SQLite veritabanında şifreli olarak saklanan bilgileriyle güvenli oturum açabilir.
-*   **👤 Kişiye Özel Kalıcı Profil:** Oturum açan kullanıcının bilgileri (Ad Soyad, E-posta vb.) yerel cihazda kalıcı olarak saklanır ve profil düzenleme dialogu üzerinden anında güncellenebilir.
-*   **🌐 Dinamik Dil Desteği (TR / EN):** Arayüzdeki tüm metinler, uyarılar, hata mesajları ve hatta veritabanından gelen kategoriler/ürünler (örn: *Meyve & Sebze* ➡️ *Fruits & Vegetables*) dil seçimine göre anlık olarak yerelleştirilir.
-*   **📊 Detaylı Harcama Analizi:** `fl_chart` kütüphanesi kullanılarak hazırlanan Pasta (Pie) ve Çubuk (Bar) grafiklerle, kategorilere göre harcama dağılımları ve aylık harcama trendleri dinamik olarak analiz edilir.
-*   **📝 Akıllı Kontrol Listesi (Checklist):** Ürünler kategorilerine göre gruplandırılmış olarak listelenir. Listedeki tüm ürünler işaretlendiğinde alışveriş listesi otomatik olarak "Tamamlandı" durumuna geçer.
-*   **💡 Önerilen Ürünler:** Ürün ekleme sayfasında veritabanında önceden tanımlanmış 80'den fazla popüler market ürünü (`Domates`, `Dana Kıyma`, `Tereyağı` vb.) varsayılan fiyatlarıyla birlikte dropdown/otomatik tamamlama olarak sunulur.
-*   **🌗 Aydınlık / Karanlık Tema:** Göz yormayan, premium renk paletlerine sahip aydınlık ve karanlık tema geçişi tek tuşla yapılabilir.
+*   ** Modern Giriş & Kayıt Sistemi:** Kullanıcılar hesap oluşturabilir ve yerel SQLite veritabanında şifreli olarak saklanan bilgileriyle güvenli oturum açabilir.
+*   ** Kişiye Özel Kalıcı Profil:** Oturum açan kullanıcının bilgileri (Ad Soyad, E-posta vb.) yerel cihazda kalıcı olarak saklanır ve profil düzenleme dialogu üzerinden anında güncellenebilir.
+*   ** Dinamik Dil Desteği (TR / EN):** Arayüzdeki tüm metinler, uyarılar, hata mesajları ve hatta veritabanından gelen kategoriler/ürünler (örn: *Meyve & Sebze* ➡️ *Fruits & Vegetables*) dil seçimine göre anlık olarak yerelleştirilir.
+*   ** Detaylı Harcama Analizi:** `fl_chart` kütüphanesi kullanılarak hazırlanan Pasta (Pie) ve Çubuk (Bar) grafiklerle, kategorilere göre harcama dağılımları ve aylık harcama trendleri dinamik olarak analiz edilir.
+*   ** Akıllı Kontrol Listesi (Checklist):** Ürünler kategorilerine göre gruplandırılmış olarak listelenir. Listedeki tüm ürünler işaretlendiğinde alışveriş listesi otomatik olarak "Tamamlandı" durumuna geçer.
+*   ** Önerilen Ürünler:** Ürün ekleme sayfasında veritabanında önceden tanımlanmış 80'den fazla popüler market ürünü (`Domates`, `Dana Kıyma`, `Tereyağı` vb.) varsayılan fiyatlarıyla birlikte dropdown/otomatik tamamlama olarak sunulur.
+*   ** Aydınlık / Karanlık Tema:** Göz yormayan, premium renk paletlerine sahip aydınlık ve karanlık tema geçişi tek tuşla yapılabilir.
 
 ---
 
-## 🛠️ Kullanılan Teknolojiler ve Bağımlılıklar
+##  Kullanılan Teknolojiler ve Bağımlılıklar
 
 *   **Flutter & Dart**
 *   **SQLite (sqflite):** İlişkisel yerel veritabanı (FOREIGN KEY ve ON DELETE CASCADE kısıtlamalarıyla).
@@ -56,7 +56,7 @@ lib/
 
 ---
 
-## 🚀 Kurulum ve Çalıştırma
+##  Kurulum ve Çalıştırma
 
 Projeyi yerel bilgisayarınızda çalıştırmak için aşağıdaki adımları takip edin:
 
